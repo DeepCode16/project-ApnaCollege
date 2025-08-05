@@ -33,7 +33,10 @@ hello
 
 | Home Page | Product Page | Cart Page |
 |----------|--------------|-----------|
-| ![Home](screenshots/home.png) | ![Product](screenshots/product.png) | ![Cart](screenshots/cart.png) |
+| ![Home](<img width="1912" height="977" alt="apna stole" src="https://github.com/user-attachments/assets/6810d745-6c44-41a5-9264-7b9d1150e845" />
+) | ![Product(<img width="1918" height="903" alt="Screenshot 2025-08-05 142041" src="https://github.com/user-attachments/assets/71e6bbe3-24ae-43e7-991a-60da070dd1a2" />
+) | ![Cart](<img width="1902" height="919" alt="Screenshot 2025-08-05 142154" src="https://github.com/user-attachments/assets/dac6523a-f367-40ca-a991-5d2c9caced8f" />
+) |
 
 > _📌 Add your actual screenshots in a screenshots folder to make this look even better._
 
