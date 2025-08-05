@@ -1,0 +1,1275 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+
+
+body{
+    padding-top: 150px;
+    background-color:white;
+}
+
+.navbar{
+
+    height:150px;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color:#eecb05;
+    
+
+
+
+
+    
+     background-image: url("logo apna stole.png") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    width: 100%;
+    top:0;
+    
+    Z-index:500;
+    
+   
+    
+
+}
+
+
+
+
+
+.logo{
+
+    
+    height: 140px;
+    width: 140px;
+    background-image: url("logo apna stole.png") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    border:3px solid gold;
+  
+}
+
+
+/* 
+  border-top:3px solid #eecb05;
+    animation: logo-Animate 3s ease-in-out 1s infinite normal;
+
+
+
+
+.logo-Animate:hover{
+    border-top:3px solid transparent;
+}
+
+@keyframes logo-Animate{
+    0%{transform:roate(0deg);}
+    100%{transform:rotate(360deg);}
+} */
+
+
+
+
+
+
+.border:hover{
+    border:2px solid #FFD700;
+}
+
+
+.nav-address{
+
+    
+
+    font-size: 2.0rem;
+    font-weight: 400;
+   
+}
+
+.deliver-to{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: 1.9rem;
+
+}
+
+.nav-search{
+
+    display: flex;
+    height: 60px;
+    border-radius: 4px;
+   
+   
+   
+    
+     
+}
+.nav-select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:gray;
+     border-top-left-radius:4px ;
+    border-bottom-left-radius: 4px;
+     
+    
+   
+    
+    
+
+}
+
+.select-all{
+    font-size: 1rem;
+    color: #f5d109;
+    outline: transparent;
+    height:60px;
+    width:60px;
+    padding-left: 15px;
+     
+    
+    background-color: lavender;
+    border:none;
+       border-top-left-radius:4px ;
+    border-bottom-left-radius: 4px;
+    
+   
+      
+    
+}
+
+
+.select-all:active{
+    border: 2px solid #eecb05;
+}
+.search-input{
+    width: 380px;;
+    
+     font-size: 1rem;
+    border: none;
+}
+
+.icon-magnifine{
+    width:50px;
+    background-COLOR:rgb(238, 238, 170);
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius:4px ;
+    border-bottom-right-radius: 4px;
+}
+
+.icon-magnifine:active{
+    border:2px solid#eecb05;
+}
+
+
+
+
+
+
+span{
+    font-size: 1rem;
+    font-weight: 400;
+    
+}
+
+p{
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.returns{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    
+}
+
+.CART{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    font-size: 2rem;
+    align-items: center;
+     
+}
+
+.cart-icon{
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+
+
+/* box1 conmplete */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* box2 */
+
+
+
+
+.panel{
+    height: 40px;
+    background-color:beige;
+    color: rgb(2, 61, 71);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+     box-shadow:0px 3px 2px  rgba(0,0,0,0.5);
+     position: fixed;
+    width: 100%;
+    top: 150px;
+    
+    Z-index:500;
+    
+    
+     
+     
+
+}
+
+.all-bar{
+    height: 30px;
+    width:50px;
+    
+    font-size: 1rem;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    
+    
+}
+
+.all-bar a{
+    text-decoration: none;
+    color:rgb(2, 61, 71);
+
+}
+
+.Breakfast{
+    height: 30px;
+    width:90px;
+font-size: 1rem;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+
+.Breakfast a{
+    text-decoration: none;
+    color:rgb(2,61,71);
+}
+
+
+
+
+
+
+
+
+.snacks{
+    height: 30px;
+    width:68px;
+font-size: 1rem;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 1rem;
+
+
+}
+
+.snacks a{
+    text-decoration: none;
+    color:rgb(2,61,71);
+}
+
+
+.lunch{
+
+     height: 30px;
+    width:68px;
+font-size: 1rem;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 1rem;
+
+
+
+}
+
+
+.lunch a{
+    text-decoration: none;
+    color:rgb(2,61,71);
+}
+
+
+
+
+.dinner{
+    height: 30px;
+    width:70px;
+font-size: 1rem;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 1rem;
+
+}
+
+
+
+.dinner a{
+    text-decoration: none;
+    color:rgb(2,61,71);
+}
+
+.backtoproject {
+     height: 30px;
+    width:70px;
+     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+   
+font-size: 1rem;
+    font-weight: 400;
+    margin-left: 1rem;
+
+}
+
+.backtoproject a{
+    
+    text-decoration: none;
+    color: rgb(2, 61, 71); 
+
+}
+
+
+
+/* main content */
+
+
+
+
+
+
+
+
+.hero-photo{
+
+    
+    margin-bottom: 2px;
+    height:560px;
+    width: 100%;
+    background-image: url("food hero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 1px solid gray;
+    
+
+   
+}
+
+
+
+
+
+.hero-section{
+
+    height: 5000px;
+    width: 100%;
+    background-color: white;
+    
+    display: flex;
+     flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* General Body */
+
+
+/* Hero Section with Video */
+.hero-video-section {
+  background-color:rgb(2,61,71);
+  padding: 80px 0;
+  min-height: 50vh;
+}
+
+.hero-video-section a{
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+/* Responsive Text in Hero */
+.hero-video-section h1,
+.hero-video-section p {
+  color: #fff;
+  font-size: 3rem;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+  color:rgb(2, 61, 71);
+  border: none;
+}
+
+.btn-warning:hover {
+  background-color: #e0a800;
+  color: #fff;
+}
+
+
+h2{background-color: whitesmoke;
+    color: #eecb05;
+    font-size: 9.9rem;
+    font-weight: 800;
+    margin-top: 25px;
+    text-shadow:0 10px 7px  #eecb05;
+
+}
+
+
+
+
+h2:hover{
+    border:4px solid #eecb05;
+}
+
+
+
+/* 
+.card1{
+    position: relative;
+    align-items: center;
+    height: 300px;
+    width:25%;
+    margin-left: 10px;
+    padding-top: 30px;
+    
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    align-items: center;
+    
+    background-color: beige;
+
+}
+
+.card1.bookmark{
+    position: absolute;
+    cursor:pointer;
+
+} */
+
+
+
+.biryani{
+
+    height: 300px;
+    width:25%;
+    margin-left: 10px;
+    padding-top: 30px;
+    
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: beige; 
+    
+    align-items: center;
+    
+    
+
+    
+    
+    
+  
+
+}
+
+.border:hover{
+    border:3px solid #eecb05;
+
+}
+
+
+
+
+.biryani-link{
+    height:250px ;
+    width:335px;
+
+
+    background-image: url("food1.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid #eecb05;
+}
+
+
+.biryani-text{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #eecb05;
+    text-decoration:none ;
+}
+
+
+
+
+
+
+
+
+/* .card2{
+    position: relative;
+    align-items: center;
+    height: 300px;
+    width:25%;
+    margin-left: 10px;
+    padding-top: 30px;
+    
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    align-items: center;
+    
+    background-color: beige;
+
+}
+
+.card2.bookmark{
+    position: absolute;
+    cursor:pointer;
+
+} */
+
+
+
+.pizza{
+
+    height: 300px;
+    width:25%;
+    margin-left: 10px;
+    padding-top: 30px;
+    
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    align-items: center;
+    
+    background-color: beige;
+}
+
+
+.pizza-link{
+    height:250px ;
+    width:335px;
+
+
+    background-image: url("food2.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid #eecb05;
+}
+
+
+.pizza-text{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #eecb05;
+    text-decoration:none ;
+}
+
+
+
+
+.ice-cream{
+
+    height: 300px;
+    width:25%;
+    margin-left: 10px;
+    padding-top: 30px;
+    
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    align-items: center;
+    
+    background-color: beige;
+}
+
+
+.ice-cream-link{
+    height:250px ;
+    width:335px;
+
+
+    background-image: url("food3.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid #eecb05;
+}
+
+
+.ice-cream-text{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #eecb05;
+    text-decoration:none ;
+}
+
+
+
+.lassi{
+    height: 300px;
+    width:25%;
+    margin-left: 10px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+}
+.lassi-link{
+    height:250px ;
+    width:335px;
+    background-image: url("food4.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid #eecb05;
+}
+.lassi-text{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #eecb05;
+    text-decoration:none ;
+}
+
+
+
+.cake{
+    height: 300px;
+    width:25%;
+    margin-left: 10px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+}
+.cake-link{
+    height:250px ;
+    width:335px;
+    background-image: url("food5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid #eecb05;
+}
+.cake-text{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #eecb05;
+    text-decoration:none ;
+}
+
+
+
+.gulab-jamun{
+    height: 300px;
+    width:25%;
+    margin-left: 10px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+}
+.gulab-jamun-link{
+    height:250px ;
+    width:335px;
+    background-image: url("food6.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid #eecb05;
+}
+.gulab-jamun-text{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #eecb05;
+    text-decoration:none ;
+}
+
+
+
+.noodles{
+    height: 300px;
+    width:25%;
+    margin-left: 10px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+}
+.noodles-link{
+    height:250px ;
+    width:335px;
+    background-image: url("food7.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid #eecb05;
+}
+.noodles-text{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #eecb05;
+    text-decoration:none ;
+}
+
+
+
+.chinese{
+    height: 300px;
+    width:25%;
+    margin-left: 10px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+}
+.chinese-link{
+    height:250px ;
+    width:335px;
+    background-image: url("food8.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid #eecb05;
+}
+.chinese-text{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #eecb05;
+    text-decoration:none ;
+}
+
+
+
+.pratha{
+    height: 300px;
+    width:25%;
+    margin-left: 10px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+}
+.pratha-link{
+    height:250px ;
+    width:335px;
+    background-image: url("food9.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid #eecb05;
+}
+.pratha-text{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #eecb05;
+    text-decoration:none ;
+}
+
+
+.kichdi{
+    height: 300px;
+    width:25%;
+    margin-left: 10px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+}
+.kichdi-link{
+    height:250px ;
+    width:335px;
+    background-image: url("food10.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid #eecb05;
+}
+.kichdi-text{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #eecb05;
+    text-decoration:none ;
+}
+
+
+
+
+.south-indian{
+    height: 300px;
+    width:25%;
+    margin-left: 10px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+}
+.south-indian-link{
+    height:250px ;
+    width:335px;
+    background-image: url("food11.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid #eecb05;
+}
+.south-indian-text{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #eecb05;
+    text-decoration:none ;
+}
+
+
+
+.chole-bhutore{
+    height: 300px;
+    width:25%;
+    margin-left: 10px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+}
+.chole-bhutore-link{
+    height:250px ;
+    width:335px;
+    background-image: url("food12.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid #eecb05;
+}
+.chole-bhutore-text{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #eecb05;
+    text-decoration:none ;
+}
+
+
+
+.pure-veg{
+    height: 300px;
+    width:25%;
+    margin-left: 10px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+}
+.pure-veg-link{
+    height:250px ;
+    width:335px;
+    background-image: url("food13.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid #eecb05;
+}
+.pure-veg-text{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #eecb05;
+    text-decoration:none ;
+}
+
+
+
+.north-indian{
+    height: 300px;
+    width:25%;
+    margin-left: 10px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+}
+.north-indian-link{
+    height:250px ;
+    width:335px;
+    background-image: url("food14.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid #eecb05;
+}
+.north-indian-text{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #eecb05;
+    text-decoration:none ;
+}
+
+
+
+
+.veg-manchurian{
+    height: 300px;
+    width:25%;
+    margin-left: 10px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+}
+.veg-manchurian-link{
+    height:250px ;
+    width:335px;
+    background-image: url("food15.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid #eecb05;
+}
+.veg-manchurian-text{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #eecb05;
+    text-decoration:none ;
+}
+
+
+
+.burger{
+    height: 300px;
+    width:25%;
+    margin-left: 10px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+}
+.burger-link{
+    height:250px ;
+    width:335px;
+    background-image: url("food16.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid #eecb05;
+}
+.burger-text{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #eecb05;
+    text-decoration:none ;
+}
+
+
+
+.spring-roll{
+    height: 300px;
+    width:25%;
+    margin-left: 10px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+}
+.spring-roll-link{
+    height:250px ;
+    width:335px;
+    background-image: url("food17.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid #eecb05;
+}
+.spring-roll-text{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #eecb05;
+    text-decoration:none ;
+}
+
+
+
+.pasta{
+    height: 300px;
+    width:25%;
+    margin-left: 10px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+}
+.pasta-link{
+    height:250px ;
+    width:335px;
+    background-image: url("food18.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid #eecb05;
+}
+.pasta-text{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #eecb05;
+    text-decoration:none ;
+}
+
+
+
+
+/* .animat{
+
+
+Animation:animat-color 3s linear 1s infinite normal;
+    
+}
+ */
+
+    
+   
+
+/* 
+@keyframes animat-color{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+
+} */
+
+
+
+
+footer{
+    color: white;
+    font-size: 1.2;
+    font-weight: 500;
+}
+
+
+
+
+.tab:hover{
+    color:white;
+    background-color: #e0a800;
+}
+
+.tabtop {
+    display: flex;
+    align-items: center;
+     margin-left: 50%;
+
+    
+
+} 
+
+.foot-panel2{
+    background-color: #122525;
+    color:white;
+    height:300px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+ul{
+    margin-top: 20px;
+}
+
+ul a{
+    display: block;
+    color: #dddd;
+    font-size: 0.85rem;
+    margin-top: 10px;
+}
+
+
+
+
+.logo-for-panel{
+    background-color: #c9d3d3;
+     
+
+    height:50px;
+    
+}
+
+
+
+.logo-for-panel:hover{
+    border: 2px solid white;
+}
+
+
+
+
+
+.foot-panel4{
+    height: 200px;
+    background-color: #182323;
+    color: white;
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+    align-items: center;
+}
+
+
+.pages{
+font-size: 0.7rem;
+text-align: center;
+
+
+}
+
+
+.pages-link{
+    color: white;
+    font-size: 0.6rem;
+    
+}
+
+
+.more-information{
+    list-style-type: none;
+    font-size: 0.4rem;
+    font-weight: 600;
+    display: inline-block;
+}
+
+ .copyright{
+    margin-top: 50px;
+    font-size: 0.7rem;
+    text-align: center;
+
+} 
+
+
+
+.foot-box1{
+    height: 800px;
+    width:100%;
+    background-image: url("footer food.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center
+ 
+}
+
+.loder{
+
+    height:300px;
+    width:300px;
+    border-radius: 50%;
+    border:2rem solid goldenrod;
+    border-top: 2rem solid transparent;
+    background-color: transparent;
+    Animation:loder-color 1s linear 1s infinite normal;
+    
+}
+
+.loder:hover{
+    border-top:2rem solid transparent;
+    background-color: transparent;
+
+    
+   
+}
+
+@keyframes loder-color{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+
+}
+
+
+
+    
+
+
+
+
+
+

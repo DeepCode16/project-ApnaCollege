@@ -1,0 +1,220 @@
+/* General Styling */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fdfaf7;
+  color: #333;
+}
+
+/* Hero Section */
+.hero-section {
+  background: url('https://source.unsplash.com/1600x700/?dinner,restaurant') center/cover no-repeat;
+  height: 90vh;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.hero-section p{
+    color:rgba(171, 13, 13, 0.113);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+
+.hero-section h1{
+    color:rgba(171, 13, 13, 0.113);
+}
+
+
+
+/* Navbar */
+.navbar-brand {
+  font-size: 1.7rem;
+}
+
+/* Cards */
+.card-title {
+  font-weight: 600;
+}
+
+.card-text {
+  color: #555;
+}
+
+.card:hover{
+   transform: scale(1.01) translateY(-10px);
+}
+
+
+
+/* Button Styling */
+.btn-light {
+  color: #8b0000;
+  background-color: #fff;
+  border: 2px solid #fff;
+  transition: 0.3s ease;
+}
+
+.btn-light:hover {
+  background-color: #8b0000;
+  color: #fff;
+}
+
+/* Footer */
+footer {
+  background-color: #2c2c2c;
+}
+
+
+.tab{
+    text-decoration: none;
+    color:white;
+}
+
+.tab:hover{
+    color:rgb(0, 94, 255);
+}
+
+/* 
+foooter */
+
+
+
+
+
+footer{
+    color: white;
+    font-size: 1.2;
+    font-weight: 500;
+}
+
+
+.foot-panel2{
+    background-color: #122525;
+    color:white;
+    height:300px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+ul{
+    margin-top: 20px;
+}
+
+ul a{
+    display: block;
+    color: #dddd;
+    font-size: 0.85rem;
+    margin-top: 10px;
+}
+
+
+
+
+.logo-for-panel{
+    background-color: #c9d3d3;
+     
+
+    height:50px;
+    
+}
+
+
+
+.logo-for-panel:hover{
+    border: 2px solid white;
+}
+
+
+
+
+
+.foot-panel4{
+    height: 200px;
+    background-color: #182323;
+    color: white;
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+    align-items: center;
+}
+
+
+.pages{
+font-size: 0.7rem;
+text-align: center;
+
+
+}
+
+
+.pages-link{
+    color: white;
+    font-size: 0.6rem;
+    
+}
+
+
+.more-information{
+    list-style-type: none;
+    font-size: 0.4rem;
+    font-weight: 600;
+    display: inline-block;
+}
+
+ .copyright{
+    margin-top: 50px;
+    font-size: 0.7rem;
+    text-align: center;
+
+} 
+
+
+
+.foot-box1{
+    height: 800px;
+    width:100%;
+    background-image: url("footer food.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center
+ 
+}
+
+.loder{
+
+    height:300px;
+    width:300px;
+    border-radius: 50%;
+    border:2rem solid goldenrod;
+    border-top: 2rem solid transparent;
+    background-color: transparent;
+    Animation:loder-color 1s linear 1s infinite normal;
+    
+}
+
+.loder:hover{
+    border-top:2rem solid transparent;
+    background-color: transparent;
+
+    
+   
+}
+
+@keyframes loder-color{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+
+}
+
+
+
+    
+
+
+
+
+
+
